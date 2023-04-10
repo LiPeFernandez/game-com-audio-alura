@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap');
+
+:root {
+    --font-family: 'Nunito', sans-serif;
+    --bg-color: #371B58;
+    --bg2-color: #4C3575;
+    --primary-color: #EEF1FF;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 4em;
+
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+
+}
+
+.container-box {
+    background-color: rgba(0,0,0,.15);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 18px;
+    padding: 25px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* .box {
+    border: .5px #5B4B8A;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px;
+    width: 40%;
+} */
+
+.fa-angle-up {
+    color:#3CCF4E;
+    margin-left: 10px;
+    background-color: var(--bg2-color);
+    border: none;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 4px;
+}
+
+.fa-angle-down {
+    color:#da370a;
+    margin-left: 10px;
+    background-color: var(--bg2-color);
+    border: none;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 4px;
+}
+
+.win {
+    color:#3CCF4E;
+    text-transform: uppercase;
+}
+
+.btn-jogar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0;
+    border-radius: 9px;
+    background-color: rgba(0,0,0,.15);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    color: var(--primary-color);
+    font-size: 1.5em;
+    font-family: var(--font-family);
+    gap: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.btn-jogar:hover {
+    transform: scale(1.01);
+}
+
+.icon-tabler-reload{
+    color: var(--primary-color);
+}
